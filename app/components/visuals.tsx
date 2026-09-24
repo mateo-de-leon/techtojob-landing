@@ -70,7 +70,7 @@ export function ProfileCard({ profile }: { profile: ProfileData }) {
       <div className="profile-identity">
         <Avatar initials="LF" />
         <div>
-          <h3>{profile.name}</h3>
+          <p className="card-title">{profile.name}</p>
           <p>{profile.role}</p>
           <span className="location">{profile.location}</span>
         </div>

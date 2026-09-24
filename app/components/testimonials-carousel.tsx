@@ -13,6 +13,7 @@ export function TestimonialsCarousel({ items, exampleLabel }: { items: Testimoni
   ];
   const [activeIndex, setActiveIndex] = useState(0);
   const [visibleCount, setVisibleCount] = useState(3);
+  const [isPaused, setIsPaused] = useState(false);
   const maxIndex = Math.max(0, carouselItems.length - visibleCount);
   const currentIndex = Math.min(activeIndex, maxIndex);
 
@@ -24,16 +25,17 @@ export function TestimonialsCarousel({ items, exampleLabel }: { items: Testimoni
   }, []);
 
   useEffect(() => {
+    if (isPaused || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const timer = window.setInterval(() => setActiveIndex((current) => current >= maxIndex ? 0 : current + 1), 5200);
     return () => window.clearInterval(timer);
-  }, [maxIndex]);
+  }, [isPaused, maxIndex]);
 
   const move = (direction: -1 | 1) => setActiveIndex((current) => direction === 1
     ? current >= maxIndex ? 0 : current + 1
     : current <= 0 ? maxIndex : current - 1);
 
   return (
-    <div className="testimonials-carousel">
+    <div className="testimonials-carousel" onMouseEnter={() => setIsPaused(true)} onMouseLeave={() => setIsPaused(false)} onFocus={() => setIsPaused(true)} onBlur={() => setIsPaused(false)}>
       <div className="testimonials-carousel-viewport">
         <div className="testimonials-carousel-track" style={{ "--carousel-index": currentIndex } as CSSProperties}>
           {carouselItems.map((item, index) => (
