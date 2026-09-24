@@ -43,7 +43,19 @@ export function ButtonLink({
 
 export function Logo({ compact = false }: { compact?: boolean }) {
   return (
-    <Link className="logo" href="#top" aria-label={messages.brand.homeLabel}>
+    <Link
+      className="logo"
+      href="#top"
+      aria-label={messages.brand.homeLabel}
+      onClick={(event) => {
+        event.preventDefault();
+        window.scrollTo({
+          top: 0,
+          behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
+        });
+        window.history.replaceState(null, "", "#top");
+      }}
+    >
       <Image
         className="logo-image"
         src={compact ? "/brand/techtojob-symbol-negative.svg" : "/brand/techtojob-v1-negative.svg"}
