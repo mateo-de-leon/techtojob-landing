@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TechToJob landing
 
-## Getting Started
+Landing oficial de TechToJob: una red profesional donde las oportunidades nacen de la participación real de talento, proyectos, empresas y comunidad.
 
-First, run the development server:
+## Tecnologías
+
+- Next.js 16 con App Router
+- TypeScript
+- Tailwind CSS 4 mediante PostCSS
+- Sora mediante `next/font/google`
+- SVG y CSS para la red visual y las microinteracciones
+
+## Instalación y ejecución
 
 ```bash
+npm install
+copy .env.example .env.local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Configura `NEXT_PUBLIC_DISCORD_INVITE_URL` en `.env.local` antes de publicar. También puedes definir `NEXT_PUBLIC_SITE_URL` para metadata, canonical y JSON-LD.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Decisiones de diseño
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+La landing usa un sistema editorial oscuro con mint como señal de acción, superficies profundas y bloques claros para marcar cambios de ritmo. El lenguaje visual mezcla una red de conexiones con tarjetas de perfil, vacantes, torneos y actividad de Discord.
 
-## Learn More
+No se utilizan imágenes stock. Los avatares son muestras tipográficas y los iconos/logomarca son SVG inline para mantener el proyecto liviano y facilitar su sustitución por activos oficiales.
 
-To learn more about Next.js, take a look at the following resources:
+## Animaciones
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Las animaciones usan `transform`, `opacity` y CSS. La portada tiene partículas reactivas al cursor, nodos con pulso, líneas de red, ticker continuo y tarjetas flotantes. El recorrido, la actividad de comunidad, el progreso del perfil y los torneos tienen entradas, estados vivos y microinteracciones. `prefers-reduced-motion` desactiva el movimiento.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Textos y futuros idiomas
 
-## Deploy on Vercel
+Los textos visibles están agrupados en `messages/es.json`. Las variables, nombres de componentes, rutas internas y funciones están en inglés para que añadir `messages/en.json` no requiera cambiar la arquitectura.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## SEO, accesibilidad y responsive
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Metadata API con `metadataBase`, canonical, Open Graph, Twitter Card y plantilla de títulos.
+- Imagen social generada en `app/opengraph-image.tsx` a 1200×630.
+- JSON-LD de tipo `Organization`.
+- Un único `h1` y jerarquía semántica de headings.
+- Navegación móvil con botón accesible y soporte de teclado.
+- Labels reales en el formulario de newsletter y estado anunciado con `aria-live`.
+- Responsive para móvil, tablet y escritorio.
+- Lint y build ejecutables con `npm run lint` y `npm run build`.
+
+## IA y alcance
+
+Se utilizó IA como apoyo para explorar la dirección visual, redactar una primera versión de textos y generar la estructura de componentes. Los textos de la comunidad son maquetas preparadas para sustituirse por datos reales.
+
+El orden prioriza primero la propuesta de valor, después el recorrido, talento, empresas, torneos, networking, prueba social, noticias, newsletter y cierre. Es una decisión narrativa para llevar de la idea a la acción con el mínimo desvío.

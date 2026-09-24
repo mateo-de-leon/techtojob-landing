@@ -1,0 +1,257 @@
+{
+  "brand": {
+    "name": "TechToJob",
+    "shortName": "TTJ",
+    "descriptor": "Red profesional tech",
+    "homeLabel": "TechToJob, volver al inicio"
+  },
+  "openGraph": {
+    "alt": "TechToJob — Red profesional para talento y empresas tech",
+    "label": "Red profesional tech",
+    "title": "Las oportunidades empiezan con lo que haces.",
+    "tagline": "Participa · Construye · Hazte visible",
+    "footer": "talento × proyectos × empresas × comunidad"
+  },
+  "seo": {
+    "title": "TechToJob — Participa, construye y gana visibilidad",
+    "description": "TechToJob es la red profesional donde talento y empresas tech se conocen por lo que construyen, comparten y aportan, no solo por un CV. Únete y participa.",
+    "shortDescription": "Una red profesional donde las oportunidades nacen de la participación real."
+  },
+  "nav": {
+    "mainLabel": "Navegación principal",
+    "mobileLabel": "Navegación móvil",
+    "howItWorks": "Cómo funciona",
+    "talent": "Para talento",
+    "companies": "Para empresas",
+    "tournaments": "Torneos",
+    "networking": "Comunidad",
+    "news": "Noticias",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "actions": {
+    "joinDiscord": "Entrar al Discord",
+    "learnMore": "Conocer el recorrido",
+    "publishProfile": "Publicar mi perfil",
+    "publishJob": "Publicar una vacante",
+    "seeTournament": "Ver el torneo",
+    "exploreChannels": "Explorar canales",
+    "viewProfile": "Ver perfil profesional",
+    "readArticle": "Leer el artículo",
+    "subscribe": "Quiero recibirlas",
+    "backToTop": "Volver al inicio"
+  },
+  "hero": {
+    "eyebrow": "Comunidad tech para construir tu próximo paso",
+    "title": "Encontrá oportunidades construyendo con otros.",
+    "highlight": "construyendo con otros",
+    "description": "TechToJob conecta talento tech, empresas y proyectos dentro de una comunidad activa. Compartí lo que sabés, participá en retos y hacé visible tu forma de trabajar.",
+    "secondary": "Un perfil cuenta quién sos. Una comunidad muestra cómo trabajás.",
+    "networkLabel": "Actividad real de la comunidad",
+    "scrollCue": "Desplaza para explorar la red",
+    "signalTicker": ["SEÑAL ENTRANTE", "PERFIL ACTUALIZADO", "PROYECTO EN REVISIÓN", "OPORTUNIDAD ABIERTA"],
+    "profileLabel": "Perfil profesional vivo",
+    "floatingLabels": {
+      "profile": "01 · perfil",
+      "opportunity": "04 · oportunidad",
+      "project": "02 · proyecto"
+    },
+    "profile": {
+      "name": "Lucía Fernández",
+      "role": "Frontend Developer",
+      "level": "Mid-level",
+      "availability": "Disponible para proyectos",
+      "location": "Montevideo · Remoto",
+      "stackLabel": "Stack tecnológico",
+      "participationLabel": "Participación reciente",
+      "participation": "Ganadora · Torneo #2",
+      "recommendation": "La comunidad recomienda su forma de explicar problemas complejos.",
+      "progressLabel": "Perfil construido al participar",
+      "status": "Visible para empresas"
+    },
+    "networkNodes": ["Talento", "Proyecto", "Empresa", "Torneo", "Comunidad"]
+  },
+  "stats": [
+    { "value": "01", "label": "perfil que se actualiza con tu actividad" },
+    { "value": "07", "label": "áreas para encontrar a tu gente" },
+    { "value": "∞", "label": "formas de demostrar lo que sabes" }
+  ],
+  "howItWorks": {
+    "eyebrow": "Cómo funciona",
+    "title": "Una comunidad donde participar cuenta.",
+    "description": "Entrás por un canal, compartís lo que estás haciendo y empezás a construir relaciones que pueden convertirse en feedback, proyectos u oportunidades.",
+    "steps": [
+      { "number": "01", "title": "Completá tu perfil", "text": "Contá qué sabés hacer, qué estás aprendiendo y qué tipo de proyectos buscás." },
+      { "number": "02", "title": "Encontrá tu canal", "text": "Entrá a conversaciones de tu área y conectá con gente que está construyendo." },
+      { "number": "03", "title": "Participá", "text": "Compartí avances, respondé dudas y sumate a retos donde puedas aportar." },
+      { "number": "04", "title": "Mostrá proyectos", "text": "Convertí tu stack en evidencia de cómo pensás, resolvés y trabajás con otros." },
+      { "number": "05", "title": "Conectá", "text": "La conversación con una empresa o colaborador empieza con contexto real." }
+    ]
+  },
+  "platform": {
+    "eyebrow": "Una plataforma por capas",
+    "title": "No es un CV con esteroides. Es un sistema de señales.",
+    "description": "Cada interacción suma contexto: quién eres, qué estás construyendo y cómo trabajas con otras personas. TechToJob convierte esa actividad en visibilidad útil.",
+    "layers": [
+      { "number": "01", "title": "Identidad", "text": "Tu stack, nivel, disponibilidad y dirección profesional en una ficha que se puede actualizar." },
+      { "number": "02", "title": "Evidencia", "text": "Proyectos, torneos y respuestas que muestran decisiones, no solo palabras clave." },
+      { "number": "03", "title": "Contexto", "text": "Conversaciones y recomendaciones que dejan ver cómo colaboras cuando aparece un problema." },
+      { "number": "04", "title": "Oportunidad", "text": "Empresas y personas encuentran una razón concreta para escribirte ahora." }
+    ],
+    "console": {
+      "label": "Panel de actividad",
+      "status": "Sistema conectado",
+      "events": [
+        { "time": "02:14", "event": "Lucía actualizó su disponibilidad", "type": "perfil" },
+        { "time": "02:11", "event": "Torneo #2 recibió una nueva entrega", "type": "proyecto" },
+        { "time": "02:08", "event": "Nodo Sur abrió una conversación", "type": "empresa" }
+      ]
+    }
+  },
+  "talent": {
+    "eyebrow": "Para talento",
+    "visualIndex": "/ 02 — TALENTO",
+    "title": "Mostrá lo que estás construyendo.",
+    "description": "Armá un perfil que se actualiza con tu actividad, compartí tus proyectos y encontrá personas que valoran tu manera de aprender y resolver.",
+    "features": [
+      { "label": "Stack", "text": "Frontend, backend, data, producto, DevOps y más." },
+      { "label": "Nivel", "text": "Junior, mid, senior o en transición: tu recorrido tiene lugar." },
+      { "label": "Disponibilidad", "text": "Full-time, part-time, freelance o abierto a explorar." },
+      { "label": "Proyectos", "text": "Código, diseño y entregas que se pueden ver y conversar." },
+      { "label": "Participación", "text": "Torneos, feedback y aportes que dejan una señal clara." },
+      { "label": "Actividad", "text": "Una presencia profesional que se actualiza contigo." }
+    ],
+    "card": {
+      "label": "Perfil en construcción",
+      "name": "Martín Pereira",
+      "role": "Backend Developer · En transición",
+      "availability": "Disponible en 2 semanas",
+      "activity": "Compartió una solución sobre colas y reintentos",
+      "project": "API de reservas · Proyecto real",
+      "score": "+24 visibilidad esta semana"
+    }
+  },
+  "companies": {
+    "eyebrow": "Para empresas",
+    "visualIndex": "/ 03 — EMPRESAS",
+    "title": "Encontrá talento por cómo trabaja, no solo por su stack.",
+    "description": "Publicá una necesidad clara y conocé perfiles con contexto: proyectos, participación en equipo y conversaciones que hacen más útil el primer contacto.",
+    "features": [
+      { "label": "Publica lo que necesitas", "text": "Describe el problema, el stack y el tipo de colaboración que imaginas." },
+      { "label": "Descubre perfiles reales", "text": "Accede a personas que ya muestran su forma de aprender y resolver." },
+      { "label": "Observa antes de contratar", "text": "Proyectos, torneos y conversaciones te dan contexto para hablar mejor." }
+    ],
+    "vacancy": {
+      "status": "Vacante abierta",
+      "title": "Backend Engineer",
+      "company": "Nodo Sur · Producto B2B",
+      "tags": ["Node.js", "TypeScript", "Remoto"],
+      "match": "8 perfiles activos coinciden",
+      "footer": "Conversación directa · Sin ATS"
+    }
+  },
+  "tournaments": {
+    "eyebrow": "Torneos",
+    "title": "Retos que terminan en algo real.",
+    "description": "Los torneos de TechToJob son una forma concreta de aprender, colaborar y salir con una entrega que podés mostrar.",
+    "card": {
+      "status": "En curso",
+      "number": "Torneo #2",
+      "title": "Landing oficial de TechToJob",
+      "description": "Diseño, desarrollo y despliegue de la puerta de entrada de la comunidad. Una entrega real para una comunidad real.",
+      "stackLabel": "Stack",
+      "stack": ["Next.js", "TypeScript", "Tailwind"],
+      "participantsLabel": "Participantes",
+      "participants": "48 perfiles",
+      "dateLabel": "Entrega",
+      "date": "30 septiembre",
+      "rewardLabel": "Lo que deja",
+      "reward": "Portfolio + visibilidad",
+      "visibility": "Empresas colaboradoras siguen las entregas",
+      "cta": "Ver bases en Discord"
+    },
+    "benefits": [
+      { "title": "Código desplegado", "text": "Algo real que enseñar, explicar y mejorar en una entrevista." },
+      { "title": "Criterios públicos", "text": "Sabes qué se valora: diseño, semántica, accesibilidad y rendimiento." },
+      { "title": "Visibilidad útil", "text": "La comunidad y empresas colaboradoras pueden seguir tu evolución." }
+    ]
+  },
+  "networking": {
+    "eyebrow": "Networking activo",
+    "title": "Un Discord para encontrar a tu gente.",
+    "description": "Canales por área, feedback directo y oportunidades que circulan entre personas que comparten una forma de construir.",
+    "channels": [
+      { "name": "Frontend", "detail": "React · CSS · Accesibilidad" },
+      { "name": "Backend", "detail": "Node · Go · Arquitectura" },
+      { "name": "Data e IA", "detail": "Datos · ML · Modelos" },
+      { "name": "DevOps", "detail": "Cloud · CI/CD · Kubernetes" },
+      { "name": "Ciberseguridad", "detail": "Auditoría · Seguridad · Riesgo" },
+      { "name": "Diseño de producto", "detail": "UI/UX · Research · Sistemas" },
+      { "name": "Carrera y salario", "detail": "Entrevistas · Ofertas · Negociación" }
+    ],
+    "activity": {
+      "label": "Actividad reciente",
+      "channelCount": "07 canales",
+      "feedPath": "comunidad / actividad",
+      "feedStatus": "comunidad activa",
+      "messages": [
+        { "author": "Nora · Data", "text": "¿Alguien tiene una forma limpia de versionar features en un pipeline?" },
+        { "author": "Leo · Backend", "text": "Te dejo un ejemplo de cómo lo resolvimos en producción." },
+        { "author": "Mica · Talent", "text": "Abrimos una vacante Node; priorizamos proyectos y contexto." }
+      ],
+      "status": "32 personas conversando ahora"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Voces de la comunidad",
+    "exampleLabel": "Reseña de ejemplo",
+    "title": "La comunidad se nota cuando encontrás dónde aportar.",
+    "description": "Historias de personas que llegaron por un canal, un reto o una conversación y encontraron una forma más concreta de avanzar.",
+    "items": [
+      { "initials": "LF", "name": "Lucía Fernández", "role": "Frontend Developer", "quote": "Entré para mejorar mi portfolio y terminé colaborando con gente que ya conocía mi forma de resolver." },
+      { "initials": "DR", "name": "Diego Roldán", "role": "Software Engineer", "quote": "El primer torneo me dio algo real que contar: decisiones, trade-offs y una entrega que podía enseñar." },
+      { "initials": "MV", "name": "Marta Vidal", "role": "Junior en transición", "quote": "No tuve que demostrar mi valor con una etiqueta. Participé, pregunté y la gente pudo verme crecer." },
+      { "initials": "EM", "name": "Elena Marco", "role": "Product Lead", "quote": "Encontramos perfiles con contexto antes de la entrevista. La conversación empieza mucho mejor." },
+      { "initials": "SP", "name": "Santi Paredes", "role": "DevOps Engineer", "quote": "A veces una recomendación útil aparece en un canal mucho antes que en una plataforma de empleo." }
+    ]
+  },
+  "news": {
+    "eyebrow": "Noticias",
+    "title": "Lo que está pasando en la red.",
+    "description": "Torneos, conversaciones y recursos para que la comunidad siga construyendo con contexto.",
+    "counter": "03 / 03",
+    "items": [
+      { "category": "Torneos", "date": "07 sep 2026", "title": "Torneo #2: construye la landing de TechToJob", "summary": "Un reto con criterios públicos, código desplegado y una entrega que la comunidad puede usar." },
+      { "category": "Comunidad", "date": "02 sep 2026", "title": "Nuevos canales para encontrarte por stack", "summary": "Espacios más concretos para pedir feedback, resolver dudas y compartir oportunidades." },
+      { "category": "Carrera", "date": "25 ago 2026", "title": "Cómo contar una decisión técnica sin perder a quien escucha", "summary": "Una guía breve para explicar tu proceso con claridad en una entrevista o revisión de proyecto." }
+    ]
+  },
+  "newsletter": {
+    "eyebrow": "Una señal por semana",
+    "title": "Lo mejor de la comunidad, directo a tu correo.",
+    "description": "Torneos abiertos, oportunidades compartidas por la red y recursos que vale la pena guardar. Un correo, sin ruido.",
+    "emailLabel": "Correo electrónico",
+    "placeholder": "tu@correo.com",
+    "consent": "Al suscribirte aceptas recibir novedades de TechToJob. Puedes darte de baja cuando quieras.",
+    "success": "Listo. Te avisaremos cuando haya algo que merezca tu atención.",
+    "error": "Escribe un correo válido para suscribirte."
+  },
+  "closing": {
+    "eyebrow": "La red está activa",
+    "title": "Tu próxima oportunidad puede empezar con una buena conversación.",
+    "description": "Entra, preséntate y deja una señal de lo que estás construyendo. El resto se construye en comunidad.",
+    "aside": "Perfil → Participación → Visibilidad → Contacto → Oportunidad"
+  },
+  "footer": {
+    "description": "Una red profesional donde desarrolladores, diseñadores y empresas tech se encuentran por lo que construyen.",
+    "groups": {
+      "talent": { "title": "Talento", "links": ["Cómo funciona", "Publicar mi perfil", "Torneos abiertos"] },
+      "companies": { "title": "Empresas", "links": ["Publicar una vacante", "Colaborar en un torneo", "Contacto directo"] },
+      "community": { "title": "Comunidad", "links": ["Canales por stack", "Testimonios", "Noticias"] },
+      "resources": { "title": "Recursos", "links": ["Newsletter", "Código de conducta", "Preguntas frecuentes"] }
+    },
+    "social": "Síguenos",
+    "legal": ["Aviso legal", "Privacidad", "Cookies"],
+    "copyright": "© 2026 TechToJob. Hecho por la comunidad, para la comunidad."
+  }
+}
